@@ -202,6 +202,9 @@ class Wavelengths:
 
         return (centre_wvs, res)
 
+
+
+
     @classmethod
     def run_landsat_oli(cls, s, **kwargs):
         """Runs the given SixS parameterisation for all of the Landsat TM bands within the 6S band range, optionally extracting a specific output.
